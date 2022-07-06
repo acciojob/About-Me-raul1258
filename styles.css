@@ -1,1 +1,49 @@
+.image{
+    width:12rem;
+    height: 12rem;
+    padding: 2rem 2rem;
+}
+body{
+    background-color: #F5F5F5;
+}
+.name{
+    padding: 2rem 2rem;
+    font-size: 1rem;
+}
+.container1{
+    padding-top: 1rem;
+    margin: 0 auto;
+    width: 75vw;
+    box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.75);
+}
+.skills-info{
+    padding-left: 2rem;
+    font-size: .8rem;
+}
+.about-me{
+    border-bottom: 3px solid #0D6EFD;
+}
+.about-me1{
+    font-size: 1.2rem;
+}
+.skills{
+    font-size: 2rem;
+}
 
+@media (max-width: 426px){
+    .container1{
+        width:100%;
+    }
+    .image{
+        width:8rem;
+        height: 8rem;
+        padding: 1rem 1rem;
+    }
+    .name{
+        font-size: .7rem;
+    }
+    .skills-info{
+        padding-left: 1rem;
+        font-size: .8rem;
+    }
+}
